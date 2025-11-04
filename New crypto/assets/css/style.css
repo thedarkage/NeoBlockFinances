@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #0a0f1f;
+  color: #dff3ff;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+nav a {
+  color: #5acaff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 600;
+}
+nav a:hover {
+  text-shadow: 0 0 10px #5acaff;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(0, 20, 50, 0.4);
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(100, 200, 255, 0.2);
+  box-shadow: 0 0 18px rgba(100, 200, 255, 0.15);
+}
+
+.img-slot {
+  width: 260px;
+  height: 260px;
+  border: 2px dashed #53c2ff;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #90d9ff;
+  margin: 15px auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 30px;
+}
+
+/* particles */
+#particles {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.img-box {
+  width: 200px;       /* adjust to whatever size you want */
+  height: 200px;      /* adjust height too */
+  overflow: hidden;   /* crops anything outside the box */
+  border-radius: 20px; /* makes corners rounded, 50% for a circle */
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* ensures the image fills the div nicely */
+}
+
+

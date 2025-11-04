@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NeoBlock Finance - Tokens</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000014;
+        color: #e0f7ff;
+    }
+
+    header {
+        background: rgba(0, 140, 255, 0.2);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #0af;
+    }
+
+    header h1 {
+        color: #0af;
+        font-size: 28px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        color: #e0f7ff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav a:hover {
+        color: #0af;
+        text-shadow: 0 0 8px #0af;
+    }
+
+    .section {
+        padding: 50px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .section h2 {
+        color: #0af;
+        font-size: 34px;
+        text-align: center;
+        text-shadow: 0 0 10px #0af;
+    }
+
+    .intro-text {
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+        font-size: 18px;
+        opacity: 0.9;
+        line-height: 1.6;
+    }
+
+    .token-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 30px;
+        color: #e0f7ff;
+    }
+
+    .token-table th, .token-table td {
+        border: 1px solid #0af;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .token-table th {
+        background: rgba(0, 140, 255, 0.3);
+        font-size: 18px;
+    }
+
+    .token-card-container {
+        margin-top: 40px;
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .token-card {
+        background: rgba(0, 140, 255, 0.12);
+        border: 1px solid #0af;
+        padding: 20px;
+        width: 300px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .img-box {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        background: #001e40;
+        border: 2px dotted #0af;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    .chart {
+        width: 100%;
+        height: 250px;
+        background: #001e40;
+        border: 2px dotted #0af;
+        margin-top: 30px;
+        border-radius: 8px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>NeoBlock Finance</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Crypto</a>
+        <a href="tokens.html">Tokens</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="section">
+    <h2>Token Overview</h2>
+    <p class="intro-text">
+        Below are the fictional blockchain assets created for this showcase. These tokens demonstrate
+        utility, design, and imagined performance models.
+        None of this is real. If it were, trust me, we'd both be rich and you wouldn’t be here right now.
+    </p>
+
+    <table class="token-table">
+        <tr>
+            <th>Token</th>
+            <th>Symbol</th>
+            <th>Supply</th>
+            <th>Chain</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>NeoBlock Utility Coin</td>
+            <td>NBU</td>
+            <td>1,000,000,000</td>
+            <td>Ethereum</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td>Neo Governance Token</td>
+            <td>NGOV</td>
+            <td>250,000,000</td>
+            <td>Polygon</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td>Experimental AI Credit</td>
+            <td>AIC</td>
+            <td>50,000,000</td>
+            <td>BNB Chain</td>
+            <td>Beta</td>
+        </tr>
+    </table>
+
+    <div class="token-card-container">
+        <div class="token-card">
+            <div class="img-box"><div class="img-box"><img src="image/NBU (3).jfif" style="width:200px; height:200px;"></div></div>
+            <h3>NBU Token</h3>
+            <p>Primary currency used across the NeoBlock ecosystem for payments, transactions, and staking.</p>
+        </div>
+
+        <div class="token-card">
+            <div class="img-box"><div class="img-box"><img src="image/NGOV (3).jfif" style="width:200px; height:200px;"></div></div>
+            <h3>NGOV Token</h3>
+            <p>Holders participate in voting, governance proposals, and ecosystem decisions.</p>
+        </div>
+
+        <div class="token-card">
+            <div class="img-box"><img src="image/AIC(3).jfif" style="width:200px; height:200px;"></div>
+            <h3>AIC Token</h3>
+            <p>Experimental token powering AI-driven network intelligence and analytics.</p>
+        </div>
+    </div>
+
+    <h2 style="margin-top:50px;">Token Performance Snapshot</h2>
+    <div class="chart">
+      <img src="image/images.jfif" alt="Token Performance" style="width:100%; height:250px;">
+    </div>
+</section>
+
+</body>
+</html>
